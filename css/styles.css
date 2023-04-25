@@ -1,5 +1,5 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
   font-family: 'Space Grotesk', sans-serif;
@@ -11,14 +11,24 @@ img {
   max-width: 100%;
 }
 
+p{
+  margin:0;
+}
+
 header{
   background-image: url(../img/fond_header.png);
   color: #e6f3ff;
   padding: 30px;
+  border-top: 5px solid black;
 }
 
 h1{
   margin-top: 0;
+}
+
+h2,
+h3{
+  margin:0;
 }
 
 .slogan{
@@ -53,14 +63,18 @@ footer{
   color: white;
 }
 
+.cta-container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .cta{
   background-color: black;
-  display:flex;
   color: white;
   text-decoration: none;
   border-radius: 12px;
   padding: 10px 30px;
-  justify-content:center;
 }
 
 .section-contact{
