@@ -2,9 +2,70 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align:center;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header{
+  background-image: url(../img/fond_header.png);
+  color: #e6f3ff;
+}
+
+h1{
+  margin-top: 0;
+}
+
+.slogan{
+  margin-bottom: 0;
+  font-size:17px;
+}
+
+.box-titel{
+  background-color: black; 
+  color: #e6f3ff;
+  margin: 30px;
+  padding: 33px;
+}
+
+.section-intro{
+  background-color: #e6f3ff;
+}
+
+.section-produit{
+  background-color: black;
+  color: #e6f3ff;
+}
+
+.question{
+  background-color: #e6f3ff;
+  color: black;
+  margin: 0 30px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.cta{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin: 20px 0;
+}
+
+.section-contact{
+  background-color: #e6f3ff;
+}
+
+.cta-light{
+  background-color: #e6f3ff;
+  color: black;
 }
